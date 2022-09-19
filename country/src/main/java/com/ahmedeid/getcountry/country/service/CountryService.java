@@ -1,4 +1,4 @@
-package com.ahmedeid.getcountry.country;
+package com.ahmedeid.getcountry.country.service;
 
 import com.ahmedeid.getcountry.country.dto.CountryDto;
 import com.ahmedeid.getcountry.country.model.Country;

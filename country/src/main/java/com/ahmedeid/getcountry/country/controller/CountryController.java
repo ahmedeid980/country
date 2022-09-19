@@ -1,6 +1,6 @@
 package com.ahmedeid.getcountry.country.controller;
 
-import com.ahmedeid.getcountry.country.CountryService;
+import com.ahmedeid.getcountry.country.service.CountryService;
 import com.ahmedeid.getcountry.country.dto.CountryDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
