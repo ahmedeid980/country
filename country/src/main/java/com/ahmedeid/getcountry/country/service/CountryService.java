@@ -1,9 +1,7 @@
 package com.ahmedeid.getcountry.country.service;
 
 import com.ahmedeid.getcountry.country.dto.CountryDto;
-import com.ahmedeid.getcountry.country.model.Country;
 import com.ahmedeid.getcountry.country.model.CountryLanguage;
-import com.ahmedeid.getcountry.country.repository.CityRepository;
 import com.ahmedeid.getcountry.country.repository.CountryLanguageRepository;
 import com.ahmedeid.getcountry.country.repository.CountryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,9 +9,6 @@ import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 @Service
 public class CountryService {
