@@ -21,6 +21,8 @@ class CountryApplicationTests {
 		assertNull(countryDto.getName());
 		assertNull(countryDto.getContinent());
 		assertNull(countryDto.getCountryLanguage());
+		assertNull(countryDto.getLifeExpectancy());
+		assertNull(countryDto.getPopulation());
 	}
 
 	@Test
